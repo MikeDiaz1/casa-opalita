@@ -32,7 +32,7 @@ contract BasicToken is ERC20, Ownable {
     );
 
     balances[msg.sender] = balances[msg.sender].sub(amount);
-    balances[to] = balances[msg.sender].add(amount);
+    balances[to] = balances[to].add(amount);
     Transfer(msg.sender, to, amount);
     return true;
   }
