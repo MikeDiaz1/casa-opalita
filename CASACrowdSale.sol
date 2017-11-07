@@ -5,8 +5,8 @@ import './BasicToken.sol';
 contract CASACrowdsale is BasicToken {
   using SafeMath for uint256;
 
-  string public constant name = "Casa Opalita"; //Confirm
-  string public constant symbol = "OPAL"; //Confirm
+  string public constant name = "CASA HOME"; //Confirm
+  string public constant symbol = "CASA"; //Confirm
   uint8 public constant decimals = 18;
   uint256 public constant rate = 10000;
   uint256 public startTime;
